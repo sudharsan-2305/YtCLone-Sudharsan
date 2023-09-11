@@ -1,0 +1,45 @@
+.sidebar
+{
+    border-color: white;
+    border: solid;
+    border-width: 1px;
+    border-right-color: rgb(241,241,241);
+    position:fixed;
+    background-color: white;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 75px;
+}
+
+.side-button
+{
+    width: 60px;
+    height: 70px;
+
+}
+
+.sidebar-button
+{
+
+    height: 80px;
+    margin-top: 20px;
+}
+
+.b1,.b2,.b3,.b4,.b5,.b6
+{
+   height: 34px;
+   margin-left: 20.5px;
+   margin-top: 10px;
+   cursor: pointer;
+}
+
+.w1,.w2,.w3,.w4,.w5,.w6
+{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    cursor: pointer;
+}

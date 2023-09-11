@@ -1,0 +1,189 @@
+.Flexbox
+            {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 55px;
+                align-items: center;
+                border: solid;
+                border-color: rgb(241,241,241);
+                border-bottom-width: 1px;
+                position: fixed;
+                top: 0px;
+                right: 0px;
+                left: 0px;
+                background-color: white;
+                z-index: 100;
+            }
+
+            .ham
+            {
+                height: 25px;
+                margin-left: 30px;
+                margin-right: 10px;
+                margin-top: 30px;
+                cursor: pointer;
+            }
+
+            .logo
+            {
+                height: 75px;
+                margin-top: 3px;
+                cursor: pointer;
+            }
+
+            .left,.middle,.right
+            {
+                display: flex;
+            }
+
+            .left{
+                width: 180px;
+            }
+
+            .middle
+            {
+                flex: 1;
+                display: flex;
+                max-width: 450px;
+               
+            }
+
+            .right
+            {
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                width: 210px;
+                justify-content: space-between;
+                flex-shrink: 0;
+                position: relative;
+
+            }
+
+            .search
+            {
+                height: 23px;
+                margin-top: 2px;
+            }
+            
+            .voice
+            {
+                height: 24px;
+            }
+
+            .upload
+            {
+                height: 24px;
+            }
+
+            .apps
+            {
+                height: 24px;
+            }
+
+            .noti
+            {
+                height: 24px;
+            }
+
+            .pic
+            {
+                height: 30px;
+                width: 30px;
+                border: none;
+                border-radius: 30px;
+                vertical-align: top;
+                margin-bottom: 30px;
+                margin-right: 20px;
+            }
+
+            button
+            {
+                height: 30px;
+            }
+
+            .upload,.apps,.noti,.pic
+            {
+                border: none;
+                background-color: white;
+            }
+
+            input
+            {
+                height: 30px;
+            }
+
+            .searchbar
+            {
+                flex:1;
+                height: 35px;
+                border:solid;
+                border-width: 1px;
+                border-color: rgb(193, 191, 191);
+                box-shadow: inset 0.5px 0.5px 0.20px rgba(0,0,0,0.15);
+                font-size: 18px;
+                width: 0;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;               
+               
+            }
+
+            .but1
+            {
+                height: 39px;
+                width: 67px;
+                margin-right: 10px;
+                border:solid;
+                border-width: 1px;
+                border-color: rgb(193, 191, 191);
+                background-color: rgb(241, 241, 241);
+                cursor:pointer;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+
+            }
+
+            .but2
+            {
+                height: 39px;
+                width: 39px;
+                background-color: rgb(241, 241, 241);
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+
+            }
+
+            .searchbar::placeholder
+            {
+                font-size: 16px;
+                padding-left: 10px;
+               
+            }
+
+            .l1,.l2,.l3,.l4
+            {
+                border: none;
+                background-color: white;
+                cursor: pointer;
+                
+            }
+
+            .l3
+            {
+               
+            }
+
+           .red{
+            position: absolute;
+            background-color: red;
+            color: white;
+            font-size: 12px;
+            padding-left: 3px;
+            padding-right: 3px;
+            border-radius: 15px;
+            border: none;
+            top: 0;
+            margin-left: 10px;
+           }
